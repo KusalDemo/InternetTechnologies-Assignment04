@@ -1,0 +1,31 @@
+section{
+    position: relative;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+section>div{
+    width: 100vw;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+
+}
+section>div:nth-child(1){
+    background-image: url("assets/sky.jpg");
+}
+section>div:nth-child(2) {
+    background-image: url("assets/city.png");
+    background-repeat: repeat-x;
+}
+section>div:nth-child(3){
+    background-image: url("assets/road.jpg");
+    background-repeat: repeat-x;
+}
+section>div:nth-child(4){
+    background-image: url("assets/car.png");
+}

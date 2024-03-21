@@ -54,11 +54,11 @@ section>div:nth-child(3){
 }
 section>div:nth-child(4){
     position: absolute;
-    top: 74%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 272px;
-    height: 115px;
+    width: 370px;
+    height: 152px;
     background-image: url('assets/car.png');
     background-size: cover;
     background-position: center;
@@ -78,16 +78,16 @@ section>div>div{
     animation-iteration-count: 3;
 }
 section>div>div:nth-child(1){
-    top: 742px;
-    left: 845px;
-    width: 53px;
-    height: 53px;
+    top: 732px;
+    left: 805px;
+    width: 70px;
+    height: 70px;
 }
 section>div>div:nth-child(2){
-    top: 742px;
-    left: 1014px;
-    width: 53px;
-    height: 53px;
+    top: 732px;
+    left: 1032px;
+    width: 70px;
+    height: 70px;
 }
 
 @keyframes slideRoad {

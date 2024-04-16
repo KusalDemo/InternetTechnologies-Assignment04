@@ -1,0 +1,32 @@
+body{
+    background: url("assets/images/greek-wallpaper.jpg") no-repeat center center fixed;
+    text-align: center;
+}
+.box-container{
+    width: 300px;
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+.box-nav{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+}
